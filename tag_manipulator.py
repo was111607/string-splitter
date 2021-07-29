@@ -1,3 +1,5 @@
+import re
+
 class TagManipulator():    
     def parse_string(self, tags, regex=""):
         result = []
